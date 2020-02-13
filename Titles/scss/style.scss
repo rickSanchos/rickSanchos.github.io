@@ -28,7 +28,7 @@ $Pcolor: #999999;
  // ===  header ===
  
 .section-header {
-    background: url(/img/Rectangle.jpg) no-repeat 50% 50%;
+    background-image: url(/img/Rectangle.jpg) no-repeat 50% 50%;
     background-size: cover;
     @include font-Montserrat;
     color: $FColor;
@@ -601,7 +601,7 @@ $Pcolor: #999999;
         line-height: 20px;
         margin: 0 auto;
         display: block;
-        margin-top: 50px;in-top: 50px;
+        margin-top: 50px;
 
         &:hover {
             cursor: pointer;

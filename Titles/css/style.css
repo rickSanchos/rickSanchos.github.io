@@ -354,7 +354,7 @@ a {
 }
 
 .section-header {
-  background: url(/img/Rectangle.jpg) no-repeat 50% 50%;
+  background-image: url(/img/Rectangle.jpg) no-repeat 50% 50%;
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
   color: #f5f3f3;
@@ -979,7 +979,6 @@ a {
   margin: 0 auto;
   display: block;
   margin-top: 50px;
-  in-top: 50px;
 }
 
 .section-project button:hover {
