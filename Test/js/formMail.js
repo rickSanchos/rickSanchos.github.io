@@ -30,7 +30,7 @@ $("#sendMail").on("click", function() {
         url: "ajax/mail.php",
         type: "POST",
         cache: false,
-        data: { email, name, phone, message},
+        data: { "email": email, "name": name, "phone": phone, "message": message},
         dataType: "html",
         beforeSend: function() {
             $("#sendMail").prop("disabled", true);
