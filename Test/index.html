@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <form id="mailForm">
+            <input type="email" id="email" name="email" placeholder="Введите email" class="form-control"><br>
+            <input type="text" id="name" name="name" placeholder="Введите имя" class="form-control"><br>
+            <input type="phone" id="phone" name="phone" placeholder="Введите телефон" class="form-control"><br>
+            <textarea  id="message" name="message" cols="30" rows="10" placeholder="Введите текст" class="form-control"></textarea><br>
+            <button  id="sendMail" class="btn btn-success">Отправить</button>
+        </form>
+        <div id="errorMess"></div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/formMail.js"></script>
+</body>
+</html>
