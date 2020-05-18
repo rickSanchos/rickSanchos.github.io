@@ -21,9 +21,10 @@ $("#sendMail").on("click", function() {
 
         return false
     }
+        $("#errorMess").text("")
 
-    $("errorMess").text("")
 
+    
     //Запись на ajax................................
     $.ajax({
         url: "ajax/mail.php",
@@ -40,7 +41,7 @@ $("#sendMail").on("click", function() {
             } else {
                 $("#mailForm").trigger("reset");
             }
-            
+
             $("#sendMail").prop("disabled", false);
         },
     });
